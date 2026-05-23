@@ -1,0 +1,6 @@
+{
+  "name": "WanderWise",
+  "description": "An AI-powered travel companion app with interactive planners, smart budget tools, and direct AI concierge advice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

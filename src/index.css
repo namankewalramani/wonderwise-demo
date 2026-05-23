@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Poppins', system-ui, sans-serif;
+  
+  --color-navy-dark: #1A1A2E;
+  --color-navy-deep: #121222;
+  --color-navy-light: #252542;
+  --color-teal-primary: #14B8A6;
+  --color-teal-light: #2DD4BF;
+  --color-coral-accent: #FF8E72;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom CSS illustration helper patterns */
+.mountain-gradient {
+  background: linear-gradient(135deg, var(--color-navy-dark) 0%, #164e63 100%);
+}
+
+/* Scrollbar styling for App Shell */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(20, 184, 166, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 184, 166, 0.4);
+}
